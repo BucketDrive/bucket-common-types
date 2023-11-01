@@ -1,0 +1,11 @@
+
+[tasks.format]
+command="cargo"
+args=["fmt"]
+
+
+
+[tasks.build]
+command="cargo"
+args=["build"]
+dependencies=["format"]
